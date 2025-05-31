@@ -1,0 +1,32 @@
+test_0 (__main__.lab4a.test_0)
+[Lab 4] - [Investigation 1] - [Part 2] - Data Structures - Test for file creation: ./lab4a.py ... ok
+test_a (__main__.lab4a.test_a)
+[Lab 4] - [Investigation 1] - [Part 2] - Data Structures - Test for errors running: ./lab4a.py ... ok
+test_a1 (__main__.lab4a.test_a1)
+[Lab 4] - [Investigation 1] - [Part 2] - Data Structures - Test for correct shebang line: ./lab4a.py ... FAIL
+
+======================================================================
+FAIL: test_a1 (__main__.lab4a.test_a1)
+[Lab 4] - [Investigation 1] - [Part 2] - Data Structures - Test for correct shebang line: ./lab4a.py
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/mlegrove/ops445/lab4/./CheckLab4.py", line 57, in test_a1
+    self.assertEqual(first_line.strip(), '#!/usr/bin/env python3', msg=error_output)
+AssertionError: '' != '#!/usr/bin/env python3'
++ #!/usr/bin/env python3
+ : your program does not have a shebang line(HINT: what should the first line contain)
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.016s
+
+FAILED (failures=1)
+OPS445 Lab Report - System Information for running ./CheckLab4.py
+=================================================================
+    User login name: mlegrove
+    Linux system name: mlegrove-VirtualBox
+    Python executable: /usr/bin/python3
+    Python version: 3123
+    OS Platform: linux
+    Working Directory: /home/mlegrove/ops445/lab4
+    Start at: Sat May 31 15:40:35 2025
+=================================================================
